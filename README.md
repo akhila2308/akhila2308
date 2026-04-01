@@ -101,6 +101,6 @@ Updated daily. Topics covered so far, techniques practiced, and mini-experiments
 
 *"The best way to understand intelligence is to build it."*
 
-**Open to AI/ML Engineer and Full Stack Developer roles — feel free to reach out via [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG)**
+**Open to AI/ML Engineer and Full Stack Developer roles — feel free to reach out via [LinkedIn](https://www.linkedin.com/in/akhila-battula-892549299)**
 
 </div>
