@@ -27,7 +27,7 @@ Right now I'm deepening my expertise in **prompt engineering and LLM behavior**,
 
 ## Featured Projects
 
-### 🧠 [Market Trend Ensemble](https://github.com/akhila2308/market-trend-ensemble)
+### 🧠 [Regime-Adaptive Stock Prediction](https://github.com/akhila2308/Regime-Adaptive-Stock-Prediction)
 **Research-grade · Python · NLP · Ensemble ML**
 
 A regime-adaptive ensemble framework for stock market prediction that integrates FinBERT sentiment analysis, Hidden Markov Models for regime detection (Bull / Bear / Volatile), and meta-learning via regime-specific Ridge Regression. Built as the codebase for my conference paper at ICCICT 2026.
