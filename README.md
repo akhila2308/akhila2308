@@ -1,106 +1,61 @@
-<div align="center">
 
-# Akhila Battula · AI/ML Engineer in the Making
+<!-- Items marked [VERIFY] = only keep if true. Delete the marker once confirmed. -->
 
-**B.Tech Computer Science (AI/ML) · Graduating April 2026**  
-Hyderabad, India · Building toward frontier AI
+# Akhila Battula · AI/ML Engineer — LLM Agents, RAG, Applied ML
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akhila-battula-892549299)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Coming_Soon-6B7280?style=for-the-badge&logo=googlechrome&logoColor=white)](#)
+B.Tech CSE (AI/ML), 2026 · Hyderabad, India · Open to relocate (Bangalore)
+**IEEE-published researcher (ICCICT 2026)** · Google Cloud GenAI + Full Stack interning experience (SmartBridge/APSCHE)
 
-</div>
+[LinkedIn](https://www.linkedin.com/in/akhila-battula-892549299) · akhilabattula63@gmail.com
 
 ---
 
-## About Me
+## What I build
 
-I'm an AI/ML-focused engineer working at the intersection of **language models, ensemble learning, and intelligent systems**. My long-term goal is to contribute to frontier AI research and engineering — specifically in the area of AI alignment and applied ML at scale.
-
-Right now I'm deepening my expertise in **prompt engineering and LLM behavior**, actively building projects that demonstrate real-world AI utility, and publishing my daily learning publicly to stay accountable and visible.
-
-- 🎓 **B.Tech CSE (AI/ML Specialization)** 
-- 📄 **Research:** Regime-Adaptive Ensemble Learning for Financial Forecasting — accepted at ICCICT 2026
-- 📚 **Currently:** *The Complete Prompt Engineering for AI Bootcamp (2026)* — [See my daily log →](https://github.com/akhila2308/prompt-engineering-log)
-- 🎯 **Actively applying** for AI/ML Engineer & Full Stack Developer roles
+- **Multi-agent LLM pipelines** that plan, call tools, and reflect on their own output
+- **RAG and natural-language data interfaces** (NL-to-SQL, grounded Q&A)
+- **Financial ML systems** with regime detection, ensembles, and explainability
 
 ---
 
 ## Featured Projects
 
-### 🧠 [Regime-Adaptive Stock Prediction](https://github.com/akhila2308/Regime-Adaptive-Stock-Prediction)
-**Research-grade · Python · NLP · Ensemble ML · Published at ICCICT 2026**
+### 🤖 [TZURONI — Multi-Agent Marketing Pipeline](https://github.com/akhila2308/cwt-marketing-agent)
+4-agent pipeline for CrowdWisdomTrading: agents collect, process, and generate marketing content, with a reflection loop (Hermes pattern) to improve outputs.
+`Python` `LangChain` `OpenRouter` `Apify` `PRAW` `Multi-agent` `Reflection`
+> Next: LangGraph orchestration, RAGAS evals, Docker [VERIFY — list only what is shipped]
 
-A regime-adaptive ensemble framework for stock market prediction that integrates FinBERT sentiment analysis, Hidden Markov Models (HMM) for market regime detection (Bull / Bear / Volatile), and multiple base models with regime-aware ensemble weighting and meta-learning via Ridge Regression.
+### 💬 [IntelliSQL — Natural Language to SQL](https://github.com/akhila2308/IntelliSQL)
+Describe what you want in plain English; the app generates, explains, and runs the SQL.
+`Python` `Gemini 2.5 Flash` `Streamlit` `SQL`
+**[Live demo →](ADD-STREAMLIT-LINK)** [VERIFY — deploy first]
 
-`Python` `FinBERT` `HMM` `ARIMA` `XGBoost` `LightGBM` `CatBoost` `LSTM` `TensorFlow` `HuggingFace` `Scikit-learn` `Pandas` `NumPy` `TA-Lib`
+### 📈 [Regime-Adaptive Ensemble — Financial Forecasting](https://github.com/akhila2308/Regime-Adaptive-Stock-Prediction)
+HMM-based regime detection + FinBERT sentiment + regime-weighted ensemble. **Published at IEEE ICCICT 2026**; extended manuscript under review.
+`Python` `HMM` `FinBERT` `LSTM` `XGBoost` `SHAP` `Conformal Prediction`
 
----
-
-### 💬 [IntelliSQL](https://github.com/akhila2308/IntelliSQL)
-**AI-Powered · Gemini API · Streamlit**
-
-Natural language to SQL converter powered by Google Gemini. Users describe what they want in plain English and the app generates, explains, and executes SQL queries — no SQL knowledge required.
-
-`Python` `Gemini API` `Streamlit` `SQL` `NLP`
-
----
-
-### ✈️ [FlightFinder](https://github.com/akhila2308/FlightFinder)
-**Full Stack · MERN**
-
-End-to-end flight booking platform with real-time search, user authentication, and booking management. Built to demonstrate full-stack engineering capability alongside my AI/ML focus.
-
-`MongoDB` `Express` `React` `Node.js` `REST API`
+### ✈️ [FlightFinder — Full-Stack Flight Booking](https://github.com/akhila2308/FlightFinder)
+Search, auth, and booking management on the MERN stack.
+`MongoDB` `Express` `React` `Node.js` `REST`
+**[Live demo →](ADD-VERCEL-LINK)** [VERIFY — deploy first]
 
 ---
 
 ## Tech Stack
 
-**AI / ML**  
-`Python` `TensorFlow` `Keras` `Scikit-learn` `HuggingFace Transformers` `LangChain` `FAISS` `OpenAI API` `Gemini API`
-
-**Data & NLP**  
-`Pandas` `NumPy` `Matplotlib` `FinBERT` `Prompt Engineering` `RAG`
-
-**Full Stack**  
-`React` `Node.js` `Express` `MongoDB` `Streamlit` `REST APIs`
-
-**Tools**  
-`Git` `GitHub` `VS Code` `Jupyter` `Google Colab`
+| Area | Tools |
+|---|---|
+| Agents & LLMs | LangChain, OpenRouter, Gemini API, OpenAI API, prompt engineering, reflection patterns |
+| RAG | FAISS, embeddings, HuggingFace Transformers |
+| ML | Scikit-learn, TensorFlow/Keras, XGBoost, LightGBM, FinBERT |
+| Backend | Python, Node.js, Express, REST APIs, SQL, MongoDB |
+| Frontend | React, Streamlit |
+| Tools | Git, Jupyter, Colab |
+| Learning next | LangGraph, Docker, CI/CD, RAGAS / Promptfoo, MCP |
 
 ---
 
-## 📓 Prompt Engineering Learning Log
-
-I'm publicly documenting every day of *The Complete Prompt Engineering for AI Bootcamp (2026)*.  
-Updated daily. Topics covered so far, techniques practiced, and mini-experiments included.
-
-**→ [View the full learning log](https://github.com/akhila2308/prompt-engineering-log)**
-
-| Week | Topics Covered |
-|------|---------------|
-| Week 1 | *(Starting soon — log will be updated daily)* |
-
-*Last updated: April 2026*
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-![Akhila's GitHub Stats](https://github-readme-stats.vercel.app/api?username=akhila2308&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=akhila2308&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-<div align="center">
-
-*"The best way to understand intelligence is to build it."*
-
-**Open to AI/ML Engineer and Full Stack Developer roles — feel free to reach out via [LinkedIn](https://www.linkedin.com/in/akhila-battula-892549299)**
-
-</div>
+*Open to AI/ML Engineer, LLM/Agent Engineer, and Full Stack roles. Best way to reach me: [LinkedIn](https://www.linkedin.com/in/akhila-battula-892549299).*
