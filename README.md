@@ -141,10 +141,7 @@ IEEE ICCICT 2026 · Extended manuscript under review at Springer Nature
 
 ---
 
-## 📓 Learning in Public
 
-I log what I learn from *The Complete Prompt Engineering for AI Bootcamp (2026)* in the [prompt-engineering-log](https://github.com/akhila2308/prompt-engineering-log).
-<!-- [VERIFY] Add 5+ real entries before keeping this section. Otherwise delete it. -->
 
 ---
 
